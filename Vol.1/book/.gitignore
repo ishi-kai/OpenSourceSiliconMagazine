@@ -1,0 +1,9 @@
+.DS_Store
+*~
+*.bak
+*.yml.orig
+#*.erb.orig
+rubygems/*
+tmp/*
+OpenSourceSiliconMagazine-Vol1-pdf/*
+OpenSourceSiliconMagazine-Vol1-md/*

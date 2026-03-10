@@ -1,0 +1,63 @@
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/tmp/89c6caef6ada462697b04b05b87103a6.lib ",
+   "modules": {
+      "\\tt_um_bfcpu": {
+         "num_wires":         3905,
+         "num_wire_bits":     4682,
+         "num_pub_wires":     155,
+         "num_pub_wire_bits": 930,
+         "num_ports":         8,
+         "num_port_bits":     43,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         4575,
+         "area":              18213.718400,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 764,
+            "$_AND_": 133,
+            "$_MUX_": 1500,
+            "$_NAND_": 73,
+            "$_NOR_": 169,
+            "$_NOT_": 232,
+            "$_ORNOT_": 162,
+            "$_OR_": 545,
+            "$_XNOR_": 16,
+            "$_XOR_": 268,
+            "sky130_fd_sc_hd__dfrtp_2": 596,
+            "sky130_fd_sc_hd__dfstp_2": 13,
+            "sky130_fd_sc_hd__dfxtp_2": 104
+         }
+      }
+   },
+      "design": {
+         "num_wires":         3905,
+         "num_wire_bits":     4682,
+         "num_pub_wires":     155,
+         "num_pub_wire_bits": 930,
+         "num_ports":         8,
+         "num_port_bits":     43,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         4575,
+         "area":              18213.718400,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 764,
+            "$_AND_": 133,
+            "$_MUX_": 1500,
+            "$_NAND_": 73,
+            "$_NOR_": 169,
+            "$_NOT_": 232,
+            "$_ORNOT_": 162,
+            "$_OR_": 545,
+            "$_XNOR_": 16,
+            "$_XOR_": 268,
+            "sky130_fd_sc_hd__dfrtp_2": 596,
+            "sky130_fd_sc_hd__dfstp_2": 13,
+            "sky130_fd_sc_hd__dfxtp_2": 104
+         }
+      }
+}
+

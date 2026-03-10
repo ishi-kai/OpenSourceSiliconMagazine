@@ -1,0 +1,94 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading timing models for corner nom_ff_n40C_1v95…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+Reading timing models for corner nom_ss_100C_1v60…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading OpenROAD database at '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/27-openroad-globalplacement/tt_um_bfcpu.odb'…
+Reading design constraints file at '/nix/store/4h964pg996p5lz54maggj16ydp2cbki3-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 20
+[INFO] Setting input delay to: 20
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
+[INFO] Setting RC values…
+[INFO RSZ-0027] Inserted 6 input buffers.
+[INFO RSZ-0058] Using max wire length 5786um.
+Iteration | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------
+        0 |       0 |       0 |             0 |      3521
+      100 |      77 |       0 |             0 |      3421
+      200 |     164 |       3 |             2 |      3321
+      300 |     251 |       5 |             4 |      3221
+      400 |     332 |       8 |             6 |      3121
+      500 |     395 |      11 |             7 |      3021
+      600 |     487 |      19 |            12 |      2921
+      700 |     590 |      34 |            19 |      2821
+      800 |     669 |      40 |            21 |      2721
+      900 |     785 |      76 |            31 |      2621
+     1000 |     889 |      87 |            35 |      2521
+     1100 |     982 |      90 |            36 |      2421
+     1200 |    1048 |      90 |            36 |      2321
+     1300 |    1112 |      90 |            36 |      2221
+     1400 |    1161 |      90 |            36 |      2121
+     1500 |    1195 |      94 |            37 |      2021
+     1600 |    1273 |     106 |            40 |      1921
+     1700 |    1345 |     106 |            40 |      1821
+     1800 |    1420 |     118 |            44 |      1721
+     1900 |    1503 |     129 |            49 |      1621
+     2000 |    1591 |     129 |            49 |      1521
+     2100 |    1638 |     140 |            54 |      1421
+     2200 |    1687 |     142 |            56 |      1321
+     2300 |    1786 |     144 |            60 |      1221
+     2400 |    1883 |     149 |            62 |      1121
+     2500 |    1965 |     152 |            64 |      1021
+     2600 |    2049 |     152 |            67 |       921
+     2700 |    2161 |     179 |            82 |       821
+     2800 |    2222 |     192 |            93 |       721
+     2900 |    2333 |     209 |           102 |       621
+     3000 |    2433 |     209 |           102 |       521
+     3100 |    2534 |     210 |           103 |       421
+     3200 |    2670 |     253 |           125 |       321
+     3300 |    2765 |     254 |           126 |       221
+     3400 |    2863 |     261 |           131 |       121
+     3500 |    3006 |     346 |           136 |        21
+    final |    3006 |     346 |           136 |         0
+---------------------------------------------------------
+[INFO RSZ-0034] Found 14 slew violations.
+[INFO RSZ-0035] Found 123 fanout violations.
+[INFO RSZ-0038] Inserted 346 buffers in 136 nets.
+[INFO RSZ-0039] Resized 3006 instances.
+[INFO RSZ-0042] Inserted 17 tie sky130_fd_sc_hd__conb_1 instances.
+Placement Analysis
+---------------------------------
+total displacement      13491.2 u
+average displacement        2.7 u
+max displacement           14.5 u
+original HPWL           87272.9 u
+legalized HPWL         100982.2 u
+delta HPWL                   16 %
+
+[INFO DPL-0020] Mirrored 1345 instances
+[INFO DPL-0021] HPWL before          100982.2 u
+[INFO DPL-0022] HPWL after            98508.6 u
+[INFO DPL-0023] HPWL delta               -2.4 %
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                               162     608.08
+  Tap cell                               1037    1297.49
+  Buffer                                    3      17.52
+  Timing Repair Buffer                    352    2202.11
+  Inverter                                 77     289.03
+  Sequential cell                         713   17595.63
+  Multi-Input combinational cell         2686   22809.38
+  Total                                  5030   44819.24
+Writing OpenROAD database to '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/31-openroad-repairdesignpostgpl/tt_um_bfcpu.odb'…
+Writing netlist to '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/31-openroad-repairdesignpostgpl/tt_um_bfcpu.nl.v'…
+Writing powered netlist to '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/31-openroad-repairdesignpostgpl/tt_um_bfcpu.pnl.v'…
+Writing layout to '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/31-openroad-repairdesignpostgpl/tt_um_bfcpu.def'…
+Writing timing constraints to '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/31-openroad-repairdesignpostgpl/tt_um_bfcpu.sdc'…

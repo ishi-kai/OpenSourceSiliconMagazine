@@ -1,0 +1,40 @@
+%Warning-REDEFMACRO: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:18:27: Redefining existing define: 'STATE_INIT', with different value: '3'b011'
+                     /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:777:1: ... Location of previous definition, with value: '5'h00'
+                     ... For warning description see https://verilator.org/warn/REDEFMACRO?v=5.018
+                     ... Use "/* verilator lint_off REDEFMACRO */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:118:14: Bits of signal are not used: 'if_mis_dphase_addr'[15:5]
+                                                                                      : ... note: In instance 'tt_um_bfcpu.U_TOP.U_CACHE'
+  118 | logic [15:0] if_mis_dphase_addr;
+      |              ^~~~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:357:14: Bits of signal are not used: 'dm_mis_dphase_addr'[14:3]
+                                                                                      : ... note: In instance 'tt_um_bfcpu.U_TOP.U_CACHE'
+  357 | logic [14:0] dm_mis_dphase_addr;
+      |              ^~~~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:520:14: Signal is not used: 'bus_req_data'
+                                                                                      : ... note: In instance 'tt_um_bfcpu.U_TOP.U_CACHE'
+  520 | logic        bus_req_data;
+      |              ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:552:14: Signal is not used: 'bus_repl'
+                                                                                      : ... note: In instance 'tt_um_bfcpu.U_TOP.U_CACHE'
+  552 | logic        bus_repl;
+      |              ^~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:553:14: Bits of signal are not used: 'bus_repl_addr'[1:0]
+                                                                                      : ... note: In instance 'tt_um_bfcpu.U_TOP.U_CACHE'
+  553 | logic [15:0] bus_repl_addr;
+      |              ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:554:14: Bits of signal are not used: 'bus_pend_addr'[1:0]
+                                                                                      : ... note: In instance 'tt_um_bfcpu.U_TOP.U_CACHE'
+  554 | logic [15:0] bus_pend_addr;
+      |              ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:555:14: Bits of signal are not used: 'bus_pend_wdata'[7:0]
+                                                                                      : ... note: In instance 'tt_um_bfcpu.U_TOP.U_CACHE'
+  555 | logic [31:0] bus_pend_wdata;
+      |              ^~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:556:14: Bits of signal are not used: 'bus_pend_rdata'[31:24]
+                                                                                      : ... note: In instance 'tt_um_bfcpu.U_TOP.U_CACHE'
+  556 | logic [31:0] bus_pend_rdata;
+      |              ^~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:60:14: Signal is not used: 'addr_ovf'
+                                                                                             : ... note: In instance 'tt_um_bfcpu.U_TOP.U_RAM'
+   60 | logic        addr_ovf;
+      |              ^~~~~~~~

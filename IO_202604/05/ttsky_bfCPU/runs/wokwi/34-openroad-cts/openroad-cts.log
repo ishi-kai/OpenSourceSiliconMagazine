@@ -1,0 +1,135 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading timing models for corner nom_ff_n40C_1v95…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+Reading timing models for corner nom_ss_100C_1v60…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading OpenROAD database at '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/33-openroad-detailedplacement/tt_um_bfcpu.odb'…
+Reading design constraints file at '/nix/store/4h964pg996p5lz54maggj16ydp2cbki3-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 20
+[INFO] Setting input delay to: 20
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
+[INFO] Setting RC values…
+[INFO] Configuring cts characterization…
+[INFO] Performing clock tree synthesis…
+[INFO] Looking for the following net(s): clk
+[INFO] Running Clock Tree Synthesis…
+[INFO CTS-0050] Root buffer is sky130_fd_sc_hd__clkbuf_16.
+[INFO CTS-0051] Sink buffer is sky130_fd_sc_hd__clkbuf_8.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    sky130_fd_sc_hd__clkbuf_2
+                    sky130_fd_sc_hd__clkbuf_4
+                    sky130_fd_sc_hd__clkbuf_8
+[INFO CTS-0049] Characterization buffer is sky130_fd_sc_hd__clkbuf_8.
+[INFO CTS-0007] Net "clk" found for clock "clk".
+[INFO CTS-0010]  Clock net "clk" has 714 sinks.
+[WARNING CTS-0041] Net "net374" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net373" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net372" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net371" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net370" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "U_TOP.QSPI_SCK_E" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "uio_oe[5]" has 0 sinks. Skipping...
+[INFO CTS-0008] TritonCTS found 1 clock nets.
+[INFO CTS-0097] Characterization used 3 buffer(s) types.
+[INFO CTS-0200] 0 placement blockages have been identified.
+[INFO CTS-0201] 0 placed hard macros will be treated like blockages.
+[INFO CTS-0027] Generating H-Tree topology for net clk.
+[INFO CTS-0028]  Total number of sinks: 714.
+[INFO CTS-0029]  Sinks will be clustered in groups of up to 25 and with maximum cluster diameter of 50.0 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 13600  dbu (13 um).
+[INFO CTS-0204] A clustering solution was found from clustering size of 25 and clustering diameter of 50.
+[INFO CTS-0205] Better solution may be possible if either -sink_clustering_size, -sink_clustering_max_diameter, or both options are omitted to enable automatic clustering.
+[INFO CTS-0019]  Total number of sinks after clustering: 55.
+[INFO CTS-0024]  Normalized sink region: [(0.979559, 1.14234), (23.5867, 15.9563)].
+[INFO CTS-0025]     Width:  22.6072.
+[INFO CTS-0026]     Height: 14.8140.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 28
+    Sub-region size: 11.3036 X 14.8140
+[INFO CTS-0034]     Segment length (rounded): 6.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 14
+    Sub-region size: 11.3036 X 7.4070
+[INFO CTS-0034]     Segment length (rounded): 4.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 55.
+[INFO CTS-0018]     Created 60 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 3.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 3.
+[INFO CTS-0015]     Created 60 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 3:1, 4:1, 7:3, 8:4, 9:3, 10:7, 11:5, 12:4, 13:4, 14:4, 15:5, 16:4, 17:5, 18:2, 19:2, 20:3, 21:1, 22:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0098] Clock net "clk"
+[INFO CTS-0099]  Sinks 768
+[INFO CTS-0100]  Leaf buffers 55
+[INFO CTS-0101]  Average sink wire length 346.97 um
+[INFO CTS-0102]  Path depth 2 - 3
+[INFO CTS-0207]  Leaf load cells 54
+[INFO] Repairing long wires on clock nets…
+[INFO RSZ-0058] Using max wire length 5786um.
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                               162     608.08
+  Tap cell                               1037    1297.49
+  Buffer                                    3      17.52
+  Clock buffer                             65     944.66
+  Timing Repair Buffer                    352    2202.11
+  Inverter                                 72     270.26
+  Clock inverter                           54     648.12
+  Sequential cell                         713   17595.63
+  Multi-Input combinational cell         2686   22809.38
+  Total                                  5144   46393.24
+Writing OpenROAD database to '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/34-openroad-cts/tt_um_bfcpu.odb'…
+Writing netlist to '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/34-openroad-cts/tt_um_bfcpu.nl.v'…
+Writing powered netlist to '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/34-openroad-cts/tt_um_bfcpu.pnl.v'…
+Writing layout to '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/34-openroad-cts/tt_um_bfcpu.def'…
+Writing timing constraints to '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/34-openroad-cts/tt_um_bfcpu.sdc'…
+[INFO] Legalizing…
+Placement Analysis
+---------------------------------
+total displacement       1304.5 u
+average displacement        0.3 u
+max displacement           13.3 u
+original HPWL          103053.0 u
+legalized HPWL         106550.2 u
+delta HPWL                    3 %
+
+[INFO DPL-0020] Mirrored 1376 instances
+[INFO DPL-0021] HPWL before          106550.2 u
+[INFO DPL-0022] HPWL after           103902.8 u
+[INFO DPL-0023] HPWL delta               -2.5 %
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                               162     608.08
+  Tap cell                               1037    1297.49
+  Buffer                                    3      17.52
+  Clock buffer                             65     944.66
+  Timing Repair Buffer                    352    2202.11
+  Inverter                                 72     270.26
+  Clock inverter                           54     648.12
+  Sequential cell                         713   17595.63
+  Multi-Input combinational cell         2686   22809.38
+  Total                                  5144   46393.24
+Writing OpenROAD database to '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/34-openroad-cts/tt_um_bfcpu.odb'…
+Writing netlist to '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/34-openroad-cts/tt_um_bfcpu.nl.v'…
+Writing powered netlist to '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/34-openroad-cts/tt_um_bfcpu.pnl.v'…
+Writing layout to '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/34-openroad-cts/tt_um_bfcpu.def'…
+Writing timing constraints to '/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/34-openroad-cts/tt_um_bfcpu.sdc'…
+%OL_CREATE_REPORT cts.rpt
+[INFO CTS-0003] Total number of Clock Roots: 1.
+[INFO CTS-0004] Total number of Buffers Inserted: 60.
+[INFO CTS-0005] Total number of Clock Subnets: 60.
+[INFO CTS-0006] Total number of Sinks: 714.
+%OL_END_REPORT

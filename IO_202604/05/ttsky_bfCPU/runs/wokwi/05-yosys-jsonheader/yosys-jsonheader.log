@@ -1,0 +1,1706 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)
+Loaded SDC plugin
+
+1. Executing Verilog-2005 frontend: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/tmp/fcbb342e5ce34092bd5dd8592e2b159b.bb.v
+Parsing SystemVerilog input from `/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/tmp/fcbb342e5ce34092bd5dd8592e2b159b.bb.v' to AST representation.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a222oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__conb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__diode_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd1_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s2s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s4s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s6s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fah_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcin_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcon_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_bleeder_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputisolatch_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrckapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__macro_sparecell'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probe_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probec_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvpwrvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_4'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/tt_um_bfcpu.sv
+Parsing SystemVerilog input from `/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/tt_um_bfcpu.sv' to AST representation.
+Storing AST representation for module `$abstract\tt_um_bfcpu'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/TOP/top.sv
+Parsing SystemVerilog input from `/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/TOP/top.sv' to AST representation.
+Storing AST representation for module `$abstract\TOP'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv
+Parsing SystemVerilog input from `/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv' to AST representation.
+Storing AST representation for module `$abstract\CPU'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv
+Parsing SystemVerilog input from `/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv' to AST representation.
+Storing AST representation for module `$abstract\CACHE'.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv
+Parsing SystemVerilog input from `/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv' to AST representation.
+Storing AST representation for module `$abstract\QSPI_SRAM'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv
+Parsing SystemVerilog input from `/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv' to AST representation.
+Storing AST representation for module `$abstract\UART'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v
+Parsing SystemVerilog input from `/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v' to AST representation.
+Storing AST representation for module `$abstract\sasc_top'.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v
+Parsing SystemVerilog input from `/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v' to AST representation.
+Storing AST representation for module `$abstract\sasc_fifo4'.
+Successfully finished Verilog frontend.
+
+10. Executing Verilog-2005 frontend: /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v
+Parsing SystemVerilog input from `/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v' to AST representation.
+Storing AST representation for module `$abstract\sasc_brg'.
+Successfully finished Verilog frontend.
+
+11. Executing HIERARCHY pass (managing design hierarchy).
+
+12. Executing AST frontend in derive mode using pre-parsed AST for module `\tt_um_bfcpu'.
+Generating RTLIL representation for module `\tt_um_bfcpu'.
+
+12.1. Analyzing design hierarchy..
+Top module:  \tt_um_bfcpu
+
+12.2. Executing AST frontend in derive mode using pre-parsed AST for module `\TOP'.
+Generating RTLIL representation for module `\TOP'.
+
+12.3. Analyzing design hierarchy..
+Top module:  \tt_um_bfcpu
+Used module:     \TOP
+
+12.4. Executing AST frontend in derive mode using pre-parsed AST for module `\UART'.
+Generating RTLIL representation for module `\UART'.
+
+12.5. Executing AST frontend in derive mode using pre-parsed AST for module `\QSPI_SRAM'.
+Generating RTLIL representation for module `\QSPI_SRAM'.
+
+12.6. Executing AST frontend in derive mode using pre-parsed AST for module `\CACHE'.
+Generating RTLIL representation for module `\CACHE'.
+
+12.7. Executing AST frontend in derive mode using pre-parsed AST for module `\CPU'.
+Generating RTLIL representation for module `\CPU'.
+
+12.8. Analyzing design hierarchy..
+Top module:  \tt_um_bfcpu
+Used module:     \TOP
+Used module:         \UART
+Used module:         \QSPI_SRAM
+Used module:         \CACHE
+Used module:         \CPU
+
+12.9. Executing AST frontend in derive mode using pre-parsed AST for module `\sasc_brg'.
+Generating RTLIL representation for module `\sasc_brg'.
+
+12.10. Executing AST frontend in derive mode using pre-parsed AST for module `\sasc_top'.
+Generating RTLIL representation for module `\sasc_top'.
+
+12.11. Analyzing design hierarchy..
+Top module:  \tt_um_bfcpu
+Used module:     \TOP
+Used module:         \UART
+Used module:             \sasc_brg
+Used module:             \sasc_top
+Used module:         \QSPI_SRAM
+Used module:         \CACHE
+Used module:         \CPU
+
+12.12. Executing AST frontend in derive mode using pre-parsed AST for module `\sasc_fifo4'.
+Generating RTLIL representation for module `\sasc_fifo4'.
+
+12.13. Analyzing design hierarchy..
+Top module:  \tt_um_bfcpu
+Used module:     \TOP
+Used module:         \UART
+Used module:             \sasc_brg
+Used module:             \sasc_top
+Used module:                 \sasc_fifo4
+Used module:         \QSPI_SRAM
+Used module:         \CACHE
+Used module:         \CPU
+
+12.14. Analyzing design hierarchy..
+Top module:  \tt_um_bfcpu
+Used module:     \TOP
+Used module:         \UART
+Used module:             \sasc_brg
+Used module:             \sasc_top
+Used module:                 \sasc_fifo4
+Used module:         \QSPI_SRAM
+Used module:         \CACHE
+Used module:         \CPU
+Removing unused module `$abstract\sasc_brg'.
+Removing unused module `$abstract\sasc_fifo4'.
+Removing unused module `$abstract\sasc_top'.
+Removing unused module `$abstract\UART'.
+Removing unused module `$abstract\QSPI_SRAM'.
+Removing unused module `$abstract\CACHE'.
+Removing unused module `$abstract\CPU'.
+Removing unused module `$abstract\TOP'.
+Removing unused module `$abstract\tt_um_bfcpu'.
+Removed 9 unused modules.
+Renaming module tt_um_bfcpu to tt_um_bfcpu.
+
+13. Executing PROC pass (convert processes to netlists).
+
+13.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+13.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed 1 dead cases from process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:282$591 in module sasc_top.
+Marked 5 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:282$591 in module sasc_top.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:276$589 in module sasc_top.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:267$584 in module sasc_top.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:258$581 in module sasc_top.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:225$563 in module sasc_top.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:204$557 in module sasc_top.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:194$551 in module sasc_top.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:187$548 in module sasc_top.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:182$546 in module sasc_top.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:169$536 in module sasc_top.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:144$523 in module sasc_brg.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:123$513 in module sasc_brg.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:112$508 in module sasc_brg.
+Marked 11 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495 in module CPU.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:326$491 in module CPU.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:318$490 in module CPU.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:0$486 in module CPU.
+Marked 3 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:260$474 in module CPU.
+Marked 3 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:230$467 in module CPU.
+Marked 5 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:203$457 in module CPU.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:183$453 in module CPU.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:168$447 in module CPU.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:147$443 in module CPU.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:136$439 in module CPU.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:110$433 in module CPU.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:100$431 in module CPU.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:713$419 in module CACHE.
+Marked 8 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:681$406 in module CACHE.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:662$397 in module CACHE.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:637$365 in module CACHE.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:629$361 in module CACHE.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:610$357 in module CACHE.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:600$354 in module CACHE.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:590$351 in module CACHE.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:580$348 in module CACHE.
+Marked 5 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:561$333 in module CACHE.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:479$277 in module CACHE.
+Marked 4 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:469$272 in module CACHE.
+Marked 4 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:459$267 in module CACHE.
+Marked 4 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:451$262 in module CACHE.
+Marked 6 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:426$242 in module CACHE.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:412$236 in module CACHE.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:398$230 in module CACHE.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:372$228 in module CACHE.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:325$216 in module CACHE.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:266$179 in module CACHE.
+Removed 1 dead cases from process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:251$178 in module CACHE.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:251$178 in module CACHE.
+Removed 1 dead cases from process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:237$177 in module CACHE.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:237$177 in module CACHE.
+Removed 1 dead cases from process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:223$176 in module CACHE.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:223$176 in module CACHE.
+Removed 1 dead cases from process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:209$175 in module CACHE.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:209$175 in module CACHE.
+Marked 4 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:184$162 in module CACHE.
+Marked 4 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:164$149 in module CACHE.
+Marked 4 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:144$136 in module CACHE.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:124$134 in module CACHE.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:95$130 in module CACHE.
+Marked 8 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92 in module QSPI_SRAM.
+Marked 4 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:310$88 in module QSPI_SRAM.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:302$87 in module QSPI_SRAM.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:274$86 in module QSPI_SRAM.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:266$85 in module QSPI_SRAM.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:246$84 in module QSPI_SRAM.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:236$83 in module QSPI_SRAM.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:226$82 in module QSPI_SRAM.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:216$81 in module QSPI_SRAM.
+Marked 10 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:179$80 in module QSPI_SRAM.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:153$76 in module QSPI_SRAM.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:142$75 in module QSPI_SRAM.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:122$74 in module QSPI_SRAM.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:106$70 in module QSPI_SRAM.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:85$69 in module QSPI_SRAM.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:63$62 in module QSPI_SRAM.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:180$50 in module UART.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:160$43 in module UART.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:150$42 in module UART.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:99$33 in module UART.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:91$32 in module UART.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:81$31 in module UART.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:71$30 in module UART.
+Marked 3 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:124$619 in module sasc_fifo4.
+Marked 1 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:116$607 in module sasc_fifo4.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:103$603 in module sasc_fifo4.
+Marked 2 switch rules as full_case in process $proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:93$599 in module sasc_fifo4.
+Removed a total of 5 dead cases.
+
+13.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 2 redundant assignments.
+Promoted 97 assignments to connections.
+
+13.4. Executing PROC_INIT pass (extract init attributes).
+
+13.5. Executing PROC_ARST pass (detect async resets in processes).
+Found async reset \rst in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:276$589'.
+Found async reset \rst in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:267$584'.
+Found async reset \rst in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:258$581'.
+Found async reset \rst in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:225$563'.
+Found async reset \rst in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:204$557'.
+Found async reset \rst in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:194$551'.
+Found async reset \rst in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:187$548'.
+Found async reset \rst in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:169$536'.
+Found async reset \rst in `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:144$523'.
+Found async reset \rst in `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:123$513'.
+Found async reset \rst in `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:112$508'.
+Found async reset \RES in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:326$491'.
+Found async reset \RES in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:318$490'.
+Found async reset \RES in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:260$474'.
+Found async reset \RES in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:230$467'.
+Found async reset \RES in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:203$457'.
+Found async reset \RES in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:183$453'.
+Found async reset \RES in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:168$447'.
+Found async reset \RES in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:147$443'.
+Found async reset \RES in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:136$439'.
+Found async reset \RES in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:110$433'.
+Found async reset \RES in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:100$431'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:713$419'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:681$406'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:637$365'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:629$361'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:610$357'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:600$354'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:590$351'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:580$348'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:561$333'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:426$242'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:412$236'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:398$230'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:372$228'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:325$216'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:184$162'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:164$149'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:144$136'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:124$134'.
+Found async reset \RES in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:95$130'.
+Found async reset \RES in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:310$88'.
+Found async reset \RES in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:302$87'.
+Found async reset \RES in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:274$86'.
+Found async reset \RES in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:266$85'.
+Found async reset \RES in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:246$84'.
+Found async reset \RES in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:236$83'.
+Found async reset \RES in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:226$82'.
+Found async reset \RES in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:216$81'.
+Found async reset \RES in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:179$80'.
+Found async reset \RES in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:153$76'.
+Found async reset \RES in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:142$75'.
+Found async reset \RES in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:122$74'.
+Found async reset \RES in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:106$70'.
+Found async reset \RES in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:85$69'.
+Found async reset \RES in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:63$62'.
+Found async reset \RES in `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:180$50'.
+Found async reset \RES in `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:160$43'.
+Found async reset \RES in `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:150$42'.
+Found async reset \RES in `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:99$33'.
+Found async reset \RES in `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:91$32'.
+Found async reset \RES in `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:81$31'.
+Found async reset \RES in `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:71$30'.
+Found async reset \rst in `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:124$619'.
+Found async reset \rst in `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:103$603'.
+Found async reset \rst in `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:93$599'.
+
+13.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~202 debug messages>
+
+13.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:311$594'.
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:308$593'.
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:305$592'.
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:282$591'.
+     1/6: $5\dpll_next_state[1:0]
+     2/6: $4\dpll_next_state[1:0]
+     3/6: $3\dpll_next_state[1:0]
+     4/6: $2\dpll_next_state[1:0]
+     5/6: $1\dpll_next_state[1:0]
+     6/6: $1\rx_sio_ce_d[0:0]
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:276$589'.
+     1/1: $0\dpll_state[1:0]
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:267$584'.
+     1/1: $0\change[0:0]
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:264$583'.
+     1/1: $0\rxd_r2[0:0]
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:258$581'.
+     1/1: $0\rxd_r1[0:0]
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:246$580'.
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:243$578'.
+     1/1: $0\rxr[9:0]
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:238$573'.
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:235$571'.
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:232$569'.
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:225$563'.
+     1/1: $0\rx_bit_cnt[3:0]
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:214$559'.
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:204$557'.
+     1/1: $0\shift_en_r[0:0]
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:201$555'.
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:194$551'.
+     1/1: $0\tx_bit_cnt[3:0]
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:187$548'.
+     1/1: $0\txd_o[0:0]
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:182$546'.
+     1/1: $0\hold_reg[9:0]
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:177$544'.
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:174$538'.
+Creating decoders for process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:169$536'.
+     1/1: $0\txf_empty_r[0:0]
+Creating decoders for process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:152$530'.
+Creating decoders for process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:149$528'.
+Creating decoders for process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:144$523'.
+     1/1: $0\cnt[1:0]
+Creating decoders for process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:139$522'.
+Creating decoders for process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:136$519'.
+Creating decoders for process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:133$518'.
+Creating decoders for process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:130$516'.
+Creating decoders for process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:123$513'.
+     1/1: $0\br_cnt[7:0]
+Creating decoders for process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:118$511'.
+Creating decoders for process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:112$508'.
+     1/1: $0\ps[7:0]
+Creating decoders for process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+     1/81: $11\state_next[4:0]
+     2/81: $4\pc_dec[0:0]
+     3/81: $10\if_do[0:0]
+     4/81: $7\indent_inc[0:0]
+     5/81: $10\state_next[4:0]
+     6/81: $3\pc_dec[0:0]
+     7/81: $9\if_do[0:0]
+     8/81: $5\indent_dec[0:0]
+     9/81: $6\indent_inc[0:0]
+    10/81: $9\state_next[4:0]
+    11/81: $6\seq_inc[0:0]
+    12/81: $2\pc_inc2[0:0]
+    13/81: $4\indent_dec[0:0]
+    14/81: $5\indent_inc[0:0]
+    15/81: $2\pc_dec[0:0]
+    16/81: $8\if_do[0:0]
+    17/81: $8\state_next[4:0]
+    18/81: $5\seq_clr[0:0]
+    19/81: $7\pc_inc[0:0]
+    20/81: $7\if_do[0:0]
+    21/81: $3\indent_clr[0:0]
+    22/81: $2\pc_dec2[0:0]
+    23/81: $5\seq_inc[0:0]
+    24/81: $7\state_next[4:0]
+    25/81: $6\pc_inc[0:0]
+    26/81: $6\if_do[0:0]
+    27/81: $4\indent_inc[0:0]
+    28/81: $6\state_next[4:0]
+    29/81: $5\pc_inc[0:0]
+    30/81: $5\if_do[0:0]
+    31/81: $3\indent_dec[0:0]
+    32/81: $3\indent_inc[0:0]
+    33/81: $5\state_next[4:0]
+    34/81: $4\seq_clr[0:0]
+    35/81: $4\pc_inc[0:0]
+    36/81: $4\if_do[0:0]
+    37/81: $2\indent_dec[0:0]
+    38/81: $2\indent_inc[0:0]
+    39/81: $4\state_next[4:0]
+    40/81: $3\seq_clr[0:0]
+    41/81: $3\pc_inc[0:0]
+    42/81: $3\if_do[0:0]
+    43/81: $2\indent_clr[0:0]
+    44/81: $4\seq_inc[0:0]
+    45/81: $3\state_next[4:0]
+    46/81: $2\seq_clr[0:0]
+    47/81: $2\pc_inc[0:0]
+    48/81: $2\if_do[0:0]
+    49/81: $2\ptr_dec[0:0]
+    50/81: $3\ptr_inc[0:0]
+    51/81: $2\ir_do[0:0]
+    52/81: $2\dr_do[0:0]
+    53/81: $3\seq_inc[0:0]
+    54/81: $2\state_next[4:0]
+    55/81: $2\seq_inc[0:0]
+    56/81: $2\ptr_inc[0:0]
+    57/81: $2\alufunc[3:0]
+    58/81: $2\dw_do[0:0]
+    59/81: $1\state_next[4:0]
+    60/81: $1\seq_inc[0:0]
+    61/81: $1\indent_clr[0:0]
+    62/81: $1\ptr_clr[0:0]
+    63/81: $1\pc_clr[0:0]
+    64/81: $1\aluinx_ir[0:0]
+    65/81: $1\aluinx_dr[0:0]
+    66/81: $1\alufunc[3:0]
+    67/81: $1\indent_dec[0:0]
+    68/81: $1\indent_inc[0:0]
+    69/81: $1\ptr_dec[0:0]
+    70/81: $1\ptr_inc[0:0]
+    71/81: $1\pc_dec2[0:0]
+    72/81: $1\pc_inc2[0:0]
+    73/81: $1\pc_dec[0:0]
+    74/81: $1\pc_inc[0:0]
+    75/81: $1\iw_do[0:0]
+    76/81: $1\ir_do[0:0]
+    77/81: $1\dw_do[0:0]
+    78/81: $1\dr_do[0:0]
+    79/81: $1\if_do[0:0]
+    80/81: $1\seq_clr[0:0]
+    81/81: $1\io_addr[1:0]
+Creating decoders for process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:326$491'.
+     1/1: $0\seq[3:0]
+Creating decoders for process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:318$490'.
+     1/1: $0\state[4:0]
+Creating decoders for process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:0$486'.
+     1/1: $1\aluout[7:0]
+Creating decoders for process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:260$474'.
+     1/1: $0\indent[15:0]
+Creating decoders for process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:230$467'.
+     1/1: $0\ptr[14:0]
+Creating decoders for process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:203$457'.
+     1/1: $0\pc[15:0]
+Creating decoders for process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:183$453'.
+     1/1: $0\ir_data_keep[7:0]
+Creating decoders for process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:168$447'.
+     1/1: $0\ir_do_dphase[0:0]
+Creating decoders for process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:147$443'.
+     1/1: $0\dr_data_keep[7:0]
+Creating decoders for process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:136$439'.
+     1/1: $0\dr_do_dphase[0:0]
+Creating decoders for process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:110$433'.
+     1/1: $0\if_code_keep[3:0]
+Creating decoders for process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:100$431'.
+     1/1: $0\if_do_dphase[0:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:713$419'.
+     1/2: $0\if_mis_req_addr_pend[15:0]
+     2/2: $0\if_mis_req_pend[0:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:681$406'.
+     1/4: $0\bus_pend_rdata[31:0] [31:24]
+     2/4: $0\bus_pend_rdata[31:0] [23:16]
+     3/4: $0\bus_pend_rdata[31:0] [15:8]
+     4/4: $0\bus_pend_rdata[31:0] [7:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:662$397'.
+     1/2: $2\BUS_WDATA[7:0]
+     2/2: $1\BUS_WDATA[7:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:637$365'.
+     1/1: $0\bus_pend_wdata[31:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:629$361'.
+     1/1: $0\bus_pend_addr[15:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:610$357'.
+     1/2: $0\bus_repl_addr[15:0]
+     2/2: $0\bus_repl[0:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:600$354'.
+     1/1: $0\bus_wrte[0:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:590$351'.
+     1/1: $0\bus_read[0:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:580$348'.
+     1/1: $0\bus_inst[0:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:561$333'.
+     1/1: $0\bus_count[2:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:479$277'.
+     1/2: $2\DM_RDATA[7:0]
+     2/2: $1\DM_RDATA[7:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:469$272'.
+     1/4: $4\dm_mis_dphase_update_data[31:24]
+     2/4: $3\dm_mis_dphase_update_data[23:16]
+     3/4: $2\dm_mis_dphase_update_data[15:8]
+     4/4: $1\dm_mis_dphase_update_data[7:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:459$267'.
+     1/4: $4\dm_hit_dphase_update_data1[31:24]
+     2/4: $3\dm_hit_dphase_update_data1[23:16]
+     3/4: $2\dm_hit_dphase_update_data1[15:8]
+     4/4: $1\dm_hit_dphase_update_data1[7:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:451$262'.
+     1/4: $4\dm_hit_dphase_update_data0[31:24]
+     2/4: $3\dm_hit_dphase_update_data0[23:16]
+     3/4: $2\dm_hit_dphase_update_data0[15:8]
+     4/4: $1\dm_hit_dphase_update_data0[7:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:426$242'.
+     1/2: $0\dc_d1[31:0]
+     2/2: $0\dc_d0[31:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:412$236'.
+     1/2: $0\dc_a1[11:0]
+     2/2: $0\dc_a0[11:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:398$230'.
+     1/2: $0\dc_v1[0:0]
+     2/2: $0\dc_v0[0:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:372$228'.
+     1/4: $0\dm_mis_dphase_wdata[7:0]
+     2/4: $0\dm_mis_dphase_write[0:0]
+     3/4: $0\dm_mis_dphase_addr[14:0]
+     4/4: $0\dm_mis_dphase[0:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:325$216'.
+     1/4: $0\dm_hit_dphase_wdata[7:0]
+     2/4: $0\dm_hit_dphase_addr[2:0]
+     3/4: $0\dm_hit_dphase_write[0:0]
+     4/4: $0\dm_hit_dphase[0:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:266$179'.
+     1/2: $2\IF_CODE[3:0]
+     2/2: $1\IF_CODE[3:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:251$178'.
+     1/1: $1\ic_d3_out[3:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:237$177'.
+     1/1: $1\ic_d2_out[3:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:223$176'.
+     1/1: $1\ic_d1_out[3:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:209$175'.
+     1/1: $1\ic_d0_out[3:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:184$162'.
+     1/4: $0\ic_d3[31:0]
+     2/4: $0\ic_d2[31:0]
+     3/4: $0\ic_d1[31:0]
+     4/4: $0\ic_d0[31:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:164$149'.
+     1/4: $0\ic_a3[10:0]
+     2/4: $0\ic_a2[10:0]
+     3/4: $0\ic_a1[10:0]
+     4/4: $0\ic_a0[10:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:144$136'.
+     1/4: $0\ic_v3[0:0]
+     2/4: $0\ic_v2[0:0]
+     3/4: $0\ic_v1[0:0]
+     4/4: $0\ic_v0[0:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:124$134'.
+     1/2: $0\if_mis_dphase_addr[15:0]
+     2/2: $0\if_mis_dphase[0:0]
+Creating decoders for process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:95$130'.
+     1/2: $0\if_hit_dphase_addr[4:0]
+     2/2: $0\if_hit_dphase[0:0]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+     1/116: $8\state_update[0:0]
+     2/116: $8\bus_ready_clr[0:0]
+     3/116: $8\state_next[2:0]
+     4/116: $8\seq_clr[0:0]
+     5/116: $8\qspi_sio_e_clr[3:0]
+     6/116: $8\qspi_sckenb_clr[0:0]
+     7/116: $8\qspi_csn_negate[0:0]
+     8/116: $3\seq_dec2[0:0]
+     9/116: $6\qspi_sckenb_set[0:0]
+    10/116: $7\bus_ready_clr[0:0]
+    11/116: $7\seq_clr[0:0]
+    12/116: $7\state_update[0:0]
+    13/116: $7\state_next[2:0]
+    14/116: $7\qspi_sio_e_clr[3:0]
+    15/116: $7\qspi_sckenb_clr[0:0]
+    16/116: $7\qspi_csn_negate[0:0]
+    17/116: $4\seq_inc[0:0]
+    18/116: $5\qspi_sio_e_set[3:0]
+    19/116: $2\qspi_txd_set_rdcmd[0:0]
+    20/116: $5\qspi_sckenb_set[0:0]
+    21/116: $4\qspi_csn_assert[0:0]
+    22/116: $2\seq_dec2[0:0]
+    23/116: $6\seq_clr[0:0]
+    24/116: $6\state_update[0:0]
+    25/116: $6\state_next[2:0]
+    26/116: $2\qspi_rxd_set_lo[0:0]
+    27/116: $2\qspi_rxd_set_hi[0:0]
+    28/116: $2\qspi_rxd_capture[0:0]
+    29/116: $6\qspi_sio_e_clr[3:0]
+    30/116: $3\qspi_txd_sft_4bit[0:0]
+    31/116: $3\qspi_txd_set_addrl[0:0]
+    32/116: $3\qspi_txd_set_addrh[0:0]
+    33/116: $6\qspi_sckenb_clr[0:0]
+    34/116: $6\qspi_csn_negate[0:0]
+    35/116: $6\bus_ready_clr[0:0]
+    36/116: $4\bus_ready_set[0:0]
+    37/116: $3\addr_inc[0:0]
+    38/116: $5\state_update[0:0]
+    39/116: $5\bus_ready_clr[0:0]
+    40/116: $5\state_next[2:0]
+    41/116: $5\seq_clr[0:0]
+    42/116: $5\qspi_sio_e_clr[3:0]
+    43/116: $5\qspi_sckenb_clr[0:0]
+    44/116: $5\qspi_csn_negate[0:0]
+    45/116: $3\seq_dec[0:0]
+    46/116: $4\qspi_sio_e_set[3:0]
+    47/116: $4\qspi_sckenb_set[0:0]
+    48/116: $3\qspi_txd_set_wdata_qspi_fwd[0:0]
+    49/116: $4\bus_ready_clr[0:0]
+    50/116: $4\seq_clr[0:0]
+    51/116: $4\state_update[0:0]
+    52/116: $4\state_next[2:0]
+    53/116: $4\qspi_sio_e_clr[3:0]
+    54/116: $4\qspi_sckenb_clr[0:0]
+    55/116: $4\qspi_csn_negate[0:0]
+    56/116: $3\seq_inc[0:0]
+    57/116: $3\qspi_sio_e_set[3:0]
+    58/116: $2\qspi_txd_set_wrcmd[0:0]
+    59/116: $3\qspi_sckenb_set[0:0]
+    60/116: $3\qspi_csn_assert[0:0]
+    61/116: $2\seq_dec[0:0]
+    62/116: $3\seq_clr[0:0]
+    63/116: $3\state_update[0:0]
+    64/116: $3\state_next[2:0]
+    65/116: $3\qspi_sio_e_clr[3:0]
+    66/116: $2\qspi_txd_sft_4bit[0:0]
+    67/116: $2\qspi_txd_set_wdata_qspi_fwd[0:0]
+    68/116: $2\qspi_txd_set_wdata_qspi[0:0]
+    69/116: $2\qspi_txd_set_addrl[0:0]
+    70/116: $2\qspi_txd_set_addrh[0:0]
+    71/116: $3\qspi_sckenb_clr[0:0]
+    72/116: $3\qspi_csn_negate[0:0]
+    73/116: $3\bus_ready_clr[0:0]
+    74/116: $3\bus_ready_set[0:0]
+    75/116: $2\addr_inc[0:0]
+    76/116: $2\seq_inc[0:0]
+    77/116: $2\qspi_sio_e_set[3:0]
+    78/116: $2\qspi_txd_set_eqio[0:0]
+    79/116: $2\qspi_sckenb_set[0:0]
+    80/116: $2\qspi_csn_assert[0:0]
+    81/116: $2\seq_clr[0:0]
+    82/116: $2\state_update[0:0]
+    83/116: $2\state_next[2:0]
+    84/116: $2\qspi_sio_e_clr[3:0]
+    85/116: $2\qspi_txd_sft_1bit[0:0]
+    86/116: $2\qspi_sckenb_clr[0:0]
+    87/116: $2\qspi_csn_negate[0:0]
+    88/116: $2\bus_ready_clr[0:0]
+    89/116: $2\bus_ready_set[0:0]
+    90/116: $1\state_update[0:0]
+    91/116: $1\state_next[2:0]
+    92/116: $1\seq_clr[0:0]
+    93/116: $1\seq_dec2[0:0]
+    94/116: $1\seq_dec[0:0]
+    95/116: $1\seq_inc[0:0]
+    96/116: $1\qspi_rxd_set_lo[0:0]
+    97/116: $1\qspi_rxd_set_hi[0:0]
+    98/116: $1\qspi_rxd_capture[0:0]
+    99/116: $1\qspi_sio_e_clr[3:0]
+   100/116: $1\qspi_sio_e_set[3:0]
+   101/116: $1\qspi_txd_sft_4bit[0:0]
+   102/116: $1\qspi_txd_sft_1bit[0:0]
+   103/116: $1\qspi_txd_set_wdata_qspi_fwd[0:0]
+   104/116: $1\qspi_txd_set_wdata_qspi[0:0]
+   105/116: $1\qspi_txd_set_addrl[0:0]
+   106/116: $1\qspi_txd_set_addrh[0:0]
+   107/116: $1\qspi_txd_set_wrcmd[0:0]
+   108/116: $1\qspi_txd_set_rdcmd[0:0]
+   109/116: $1\qspi_txd_set_eqio[0:0]
+   110/116: $1\qspi_sckenb_clr[0:0]
+   111/116: $1\qspi_sckenb_set[0:0]
+   112/116: $1\qspi_csn_negate[0:0]
+   113/116: $1\qspi_csn_assert[0:0]
+   114/116: $1\bus_ready_clr[0:0]
+   115/116: $1\bus_ready_set[0:0]
+   116/116: $1\addr_inc[0:0]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:310$88'.
+     1/1: $0\seq[3:0]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:302$87'.
+     1/1: $0\state[2:0]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:274$86'.
+     1/1: $0\qspi_rxd[7:0]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:266$85'.
+     1/1: $0\qspi_rxd_temp[3:0]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:246$84'.
+     1/1: $0\QSPI_SIO_E[3:3]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:236$83'.
+     1/1: $0\QSPI_SIO_E[2:2]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:226$82'.
+     1/1: $0\QSPI_SIO_E[1:1]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:216$81'.
+     1/1: $0\QSPI_SIO_E[0:0]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:179$80'.
+     1/1: $0\qspi_txd[7:0]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:153$76'.
+     1/1: $0\qspi_sckenb2[0:0]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:142$75'.
+     1/1: $0\qspi_sckenb[0:0]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:122$74'.
+     1/1: $0\QSPI_CS_N[0:0]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:106$70'.
+     1/1: $0\BUS_RDY[0:0]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:85$69'.
+     1/1: $0\wdata[7:0]
+Creating decoders for process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:63$62'.
+     1/1: $0\addr[15:0]
+Creating decoders for process `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:180$50'.
+     1/1: $0\rxd_dphase[0:0]
+Creating decoders for process `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:160$43'.
+     1/1: $0\txd_dphase[0:0]
+Creating decoders for process `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:150$42'.
+     1/1: $0\din[7:0]
+Creating decoders for process `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:99$33'.
+     1/1: $0\div1[7:0]
+Creating decoders for process `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:91$32'.
+     1/1: $0\div0[7:0]
+Creating decoders for process `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:81$31'.
+     1/1: $0\div1_dphase[0:0]
+Creating decoders for process `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:71$30'.
+     1/1: $0\div0_dphase[0:0]
+Creating decoders for process `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:124$619'.
+     1/1: $0\gb[0:0]
+Creating decoders for process `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:116$607'.
+     1/3: $1$memwr$\mem$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:117$597_EN[7:0]$613
+     2/3: $1$memwr$\mem$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:117$597_DATA[7:0]$612
+     3/3: $1$memwr$\mem$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:117$597_ADDR[1:0]$611
+Creating decoders for process `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:103$603'.
+     1/1: $0\rp[1:0]
+Creating decoders for process `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:93$599'.
+     1/1: $0\wp[1:0]
+
+13.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\sasc_top.\rx_sio_ce_d' from process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:282$591'.
+No latch inferred for signal `\sasc_top.\dpll_next_state' from process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:282$591'.
+No latch inferred for signal `\CPU.\io_addr' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\state_next' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\seq_clr' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\seq_inc' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\if_do' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\dr_do' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\dw_do' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\ir_do' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\iw_do' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\pc_clr' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\pc_inc' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\pc_dec' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\pc_inc2' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\pc_dec2' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\ptr_clr' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\ptr_inc' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\ptr_dec' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\indent_clr' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\indent_inc' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\indent_dec' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\alufunc' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\aluinx_dr' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\aluinx_ir' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+No latch inferred for signal `\CPU.\aluout' from process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:0$486'.
+No latch inferred for signal `\CACHE.\BUS_WDATA' from process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:662$397'.
+No latch inferred for signal `\CACHE.\DM_RDATA' from process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:479$277'.
+No latch inferred for signal `\CACHE.\dm_mis_dphase_update_data' from process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:469$272'.
+No latch inferred for signal `\CACHE.\dm_hit_dphase_update_data1' from process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:459$267'.
+No latch inferred for signal `\CACHE.\dm_hit_dphase_update_data0' from process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:451$262'.
+No latch inferred for signal `\CACHE.\IF_CODE' from process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:266$179'.
+No latch inferred for signal `\CACHE.\ic_d3_out' from process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:251$178'.
+No latch inferred for signal `\CACHE.\ic_d2_out' from process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:237$177'.
+No latch inferred for signal `\CACHE.\ic_d1_out' from process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:223$176'.
+No latch inferred for signal `\CACHE.\ic_d0_out' from process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:209$175'.
+No latch inferred for signal `\QSPI_SRAM.\addr_inc' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\bus_ready_set' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\bus_ready_clr' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_csn_assert' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_csn_negate' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_sckenb_set' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_sckenb_clr' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_txd_set_eqio' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_txd_set_rdcmd' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_txd_set_wrcmd' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_txd_set_addrh' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_txd_set_addrl' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_txd_set_wdata_spi' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_txd_set_wdata_qspi' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_txd_set_wdata_qspi_fwd' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_txd_sft_1bit' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_txd_sft_4bit' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_sio_e_set' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_sio_e_clr' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_rxd_capture' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_rxd_set_hi' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\qspi_rxd_set_lo' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\state_next' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\state_update' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\seq_clr' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\seq_inc' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\seq_dec' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+No latch inferred for signal `\QSPI_SRAM.\seq_dec2' from process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+
+13.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\sasc_top.\rx_sio_ce' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:311$594'.
+  created $dff cell `$procdff$3382' with positive edge clock.
+Creating register for signal `\sasc_top.\rx_sio_ce_r2' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:308$593'.
+  created $dff cell `$procdff$3383' with positive edge clock.
+Creating register for signal `\sasc_top.\rx_sio_ce_r1' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:305$592'.
+  created $dff cell `$procdff$3384' with positive edge clock.
+Creating register for signal `\sasc_top.\dpll_state' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:276$589'.
+  created $adff cell `$procdff$3389' with positive edge clock and positive level reset.
+Creating register for signal `\sasc_top.\change' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:267$584'.
+  created $adff cell `$procdff$3394' with positive edge clock and positive level reset.
+Creating register for signal `\sasc_top.\rxd_r2' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:264$583'.
+  created $dff cell `$procdff$3395' with positive edge clock.
+Creating register for signal `\sasc_top.\rxd_r1' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:258$581'.
+  created $adff cell `$procdff$3400' with positive edge clock and positive level reset.
+Creating register for signal `\sasc_top.\rts_o' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:246$580'.
+  created $dff cell `$procdff$3401' with positive edge clock.
+Creating register for signal `\sasc_top.\rxr' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:243$578'.
+  created $dff cell `$procdff$3402' with positive edge clock.
+Creating register for signal `\sasc_top.\rx_valid_r' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:238$573'.
+  created $dff cell `$procdff$3403' with positive edge clock.
+Creating register for signal `\sasc_top.\rx_valid' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:235$571'.
+  created $dff cell `$procdff$3404' with positive edge clock.
+Creating register for signal `\sasc_top.\rx_go' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:232$569'.
+  created $dff cell `$procdff$3405' with positive edge clock.
+Creating register for signal `\sasc_top.\rx_bit_cnt' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:225$563'.
+  created $adff cell `$procdff$3410' with positive edge clock and positive level reset.
+Creating register for signal `\sasc_top.\rxd_s' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:214$559'.
+  created $dff cell `$procdff$3411' with positive edge clock.
+Creating register for signal `\sasc_top.\rxd_r' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:214$559'.
+  created $dff cell `$procdff$3412' with positive edge clock.
+Creating register for signal `\sasc_top.\rxd_dly' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:214$559'.
+  created $dff cell `$procdff$3413' with positive edge clock.
+Creating register for signal `\sasc_top.\shift_en_r' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:204$557'.
+  created $adff cell `$procdff$3418' with positive edge clock and positive level reset.
+Creating register for signal `\sasc_top.\shift_en' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:201$555'.
+  created $dff cell `$procdff$3419' with positive edge clock.
+Creating register for signal `\sasc_top.\tx_bit_cnt' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:194$551'.
+  created $adff cell `$procdff$3424' with positive edge clock and positive level reset.
+Creating register for signal `\sasc_top.\txd_o' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:187$548'.
+  created $adff cell `$procdff$3429' with positive edge clock and positive level reset.
+Creating register for signal `\sasc_top.\hold_reg' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:182$546'.
+  created $dff cell `$procdff$3430' with positive edge clock.
+Creating register for signal `\sasc_top.\load_r' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:177$544'.
+  created $dff cell `$procdff$3431' with positive edge clock.
+Creating register for signal `\sasc_top.\load' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:174$538'.
+  created $dff cell `$procdff$3432' with positive edge clock.
+Creating register for signal `\sasc_top.\txf_empty_r' using process `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:169$536'.
+  created $adff cell `$procdff$3437' with positive edge clock and positive level reset.
+Creating register for signal `\sasc_brg.\sio_ce' using process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:152$530'.
+  created $dff cell `$procdff$3438' with positive edge clock.
+Creating register for signal `\sasc_brg.\sio_ce_r' using process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:149$528'.
+  created $dff cell `$procdff$3439' with positive edge clock.
+Creating register for signal `\sasc_brg.\cnt' using process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:144$523'.
+  created $adff cell `$procdff$3444' with positive edge clock and positive level reset.
+Creating register for signal `\sasc_brg.\sio_ce_x4' using process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:139$522'.
+  created $dff cell `$procdff$3445' with positive edge clock.
+Creating register for signal `\sasc_brg.\sio_ce_x4_t' using process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:136$519'.
+  created $dff cell `$procdff$3446' with positive edge clock.
+Creating register for signal `\sasc_brg.\sio_ce_x4_r' using process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:133$518'.
+  created $dff cell `$procdff$3447' with positive edge clock.
+Creating register for signal `\sasc_brg.\br_clr' using process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:130$516'.
+  created $dff cell `$procdff$3448' with positive edge clock.
+Creating register for signal `\sasc_brg.\br_cnt' using process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:123$513'.
+  created $adff cell `$procdff$3453' with positive edge clock and positive level reset.
+Creating register for signal `\sasc_brg.\ps_clr' using process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:118$511'.
+  created $dff cell `$procdff$3454' with positive edge clock.
+Creating register for signal `\sasc_brg.\ps' using process `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:112$508'.
+  created $adff cell `$procdff$3459' with positive edge clock and positive level reset.
+Creating register for signal `\CPU.\seq' using process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:326$491'.
+  created $adff cell `$procdff$3462' with positive edge clock and positive level reset.
+Creating register for signal `\CPU.\state' using process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:318$490'.
+  created $adff cell `$procdff$3465' with positive edge clock and positive level reset.
+Creating register for signal `\CPU.\indent' using process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:260$474'.
+  created $adff cell `$procdff$3468' with positive edge clock and positive level reset.
+Creating register for signal `\CPU.\ptr' using process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:230$467'.
+  created $adff cell `$procdff$3471' with positive edge clock and positive level reset.
+Creating register for signal `\CPU.\pc' using process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:203$457'.
+  created $adff cell `$procdff$3474' with positive edge clock and positive level reset.
+Creating register for signal `\CPU.\ir_data_keep' using process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:183$453'.
+  created $adff cell `$procdff$3477' with positive edge clock and positive level reset.
+Creating register for signal `\CPU.\ir_do_dphase' using process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:168$447'.
+  created $adff cell `$procdff$3480' with positive edge clock and positive level reset.
+Creating register for signal `\CPU.\dr_data_keep' using process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:147$443'.
+  created $adff cell `$procdff$3483' with positive edge clock and positive level reset.
+Creating register for signal `\CPU.\dr_do_dphase' using process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:136$439'.
+  created $adff cell `$procdff$3486' with positive edge clock and positive level reset.
+Creating register for signal `\CPU.\if_code_keep' using process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:110$433'.
+  created $adff cell `$procdff$3489' with positive edge clock and positive level reset.
+Creating register for signal `\CPU.\if_do_dphase' using process `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:100$431'.
+  created $adff cell `$procdff$3492' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\if_mis_req_pend' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:713$419'.
+  created $adff cell `$procdff$3495' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\if_mis_req_addr_pend' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:713$419'.
+  created $adff cell `$procdff$3498' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\bus_pend_rdata' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:681$406'.
+  created $adff cell `$procdff$3501' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\bus_pend_wdata' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:637$365'.
+  created $adff cell `$procdff$3504' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\bus_pend_addr' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:629$361'.
+  created $adff cell `$procdff$3507' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\bus_repl' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:610$357'.
+  created $adff cell `$procdff$3510' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\bus_repl_addr' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:610$357'.
+  created $adff cell `$procdff$3513' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\bus_wrte' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:600$354'.
+  created $adff cell `$procdff$3516' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\bus_read' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:590$351'.
+  created $adff cell `$procdff$3519' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\bus_inst' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:580$348'.
+  created $adff cell `$procdff$3522' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\bus_count' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:561$333'.
+  created $adff cell `$procdff$3525' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\dc_d0' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:426$242'.
+  created $adff cell `$procdff$3528' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\dc_d1' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:426$242'.
+  created $adff cell `$procdff$3531' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\dc_a0' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:412$236'.
+  created $adff cell `$procdff$3534' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\dc_a1' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:412$236'.
+  created $adff cell `$procdff$3537' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\dc_v0' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:398$230'.
+  created $adff cell `$procdff$3540' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\dc_v1' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:398$230'.
+  created $adff cell `$procdff$3543' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\dm_mis_dphase' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:372$228'.
+  created $adff cell `$procdff$3546' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\dm_mis_dphase_addr' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:372$228'.
+  created $adff cell `$procdff$3549' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\dm_mis_dphase_write' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:372$228'.
+  created $adff cell `$procdff$3552' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\dm_mis_dphase_wdata' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:372$228'.
+  created $adff cell `$procdff$3555' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\dm_hit_dphase' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:325$216'.
+  created $adff cell `$procdff$3558' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\dm_hit_dphase_write' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:325$216'.
+  created $adff cell `$procdff$3561' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\dm_hit_dphase_addr' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:325$216'.
+  created $adff cell `$procdff$3564' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\dm_hit_dphase_wdata' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:325$216'.
+  created $adff cell `$procdff$3567' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\ic_d0' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:184$162'.
+  created $adff cell `$procdff$3570' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\ic_d1' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:184$162'.
+  created $adff cell `$procdff$3573' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\ic_d2' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:184$162'.
+  created $adff cell `$procdff$3576' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\ic_d3' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:184$162'.
+  created $adff cell `$procdff$3579' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\ic_a0' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:164$149'.
+  created $adff cell `$procdff$3582' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\ic_a1' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:164$149'.
+  created $adff cell `$procdff$3585' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\ic_a2' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:164$149'.
+  created $adff cell `$procdff$3588' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\ic_a3' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:164$149'.
+  created $adff cell `$procdff$3591' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\ic_v0' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:144$136'.
+  created $adff cell `$procdff$3594' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\ic_v1' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:144$136'.
+  created $adff cell `$procdff$3597' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\ic_v2' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:144$136'.
+  created $adff cell `$procdff$3600' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\ic_v3' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:144$136'.
+  created $adff cell `$procdff$3603' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\if_mis_dphase' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:124$134'.
+  created $adff cell `$procdff$3606' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\if_mis_dphase_addr' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:124$134'.
+  created $adff cell `$procdff$3609' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\if_hit_dphase' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:95$130'.
+  created $adff cell `$procdff$3612' with positive edge clock and positive level reset.
+Creating register for signal `\CACHE.\if_hit_dphase_addr' using process `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:95$130'.
+  created $adff cell `$procdff$3615' with positive edge clock and positive level reset.
+Creating register for signal `\QSPI_SRAM.\seq' using process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:310$88'.
+  created $adff cell `$procdff$3618' with positive edge clock and positive level reset.
+Creating register for signal `\QSPI_SRAM.\state' using process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:302$87'.
+  created $adff cell `$procdff$3621' with positive edge clock and positive level reset.
+Creating register for signal `\QSPI_SRAM.\qspi_rxd' using process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:274$86'.
+  created $adff cell `$procdff$3624' with positive edge clock and positive level reset.
+Creating register for signal `\QSPI_SRAM.\qspi_rxd_temp' using process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:266$85'.
+  created $adff cell `$procdff$3627' with negative edge clock and positive level reset.
+Creating register for signal `\QSPI_SRAM.\QSPI_SIO_E [3]' using process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:246$84'.
+  created $adff cell `$procdff$3630' with positive edge clock and positive level reset.
+Creating register for signal `\QSPI_SRAM.\QSPI_SIO_E [2]' using process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:236$83'.
+  created $adff cell `$procdff$3633' with positive edge clock and positive level reset.
+Creating register for signal `\QSPI_SRAM.\QSPI_SIO_E [1]' using process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:226$82'.
+  created $adff cell `$procdff$3636' with positive edge clock and positive level reset.
+Creating register for signal `\QSPI_SRAM.\QSPI_SIO_E [0]' using process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:216$81'.
+  created $adff cell `$procdff$3639' with positive edge clock and positive level reset.
+Creating register for signal `\QSPI_SRAM.\qspi_txd' using process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:179$80'.
+  created $adff cell `$procdff$3642' with positive edge clock and positive level reset.
+Creating register for signal `\QSPI_SRAM.\qspi_sckenb2' using process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:153$76'.
+  created $adff cell `$procdff$3645' with negative edge clock and positive level reset.
+Creating register for signal `\QSPI_SRAM.\qspi_sckenb' using process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:142$75'.
+  created $adff cell `$procdff$3648' with positive edge clock and positive level reset.
+Creating register for signal `\QSPI_SRAM.\QSPI_CS_N' using process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:122$74'.
+  created $adff cell `$procdff$3651' with positive edge clock and positive level reset.
+Creating register for signal `\QSPI_SRAM.\BUS_RDY' using process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:106$70'.
+  created $adff cell `$procdff$3654' with positive edge clock and positive level reset.
+Creating register for signal `\QSPI_SRAM.\wdata' using process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:85$69'.
+  created $adff cell `$procdff$3657' with positive edge clock and positive level reset.
+Creating register for signal `\QSPI_SRAM.\addr' using process `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:63$62'.
+  created $adff cell `$procdff$3660' with positive edge clock and positive level reset.
+Creating register for signal `\UART.\rxd_dphase' using process `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:180$50'.
+  created $adff cell `$procdff$3663' with positive edge clock and positive level reset.
+Creating register for signal `\UART.\txd_dphase' using process `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:160$43'.
+  created $adff cell `$procdff$3666' with positive edge clock and positive level reset.
+Creating register for signal `\UART.\din' using process `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:150$42'.
+  created $adff cell `$procdff$3669' with positive edge clock and positive level reset.
+Creating register for signal `\UART.\div1' using process `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:99$33'.
+  created $adff cell `$procdff$3672' with positive edge clock and positive level reset.
+Creating register for signal `\UART.\div0' using process `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:91$32'.
+  created $adff cell `$procdff$3675' with positive edge clock and positive level reset.
+Creating register for signal `\UART.\div1_dphase' using process `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:81$31'.
+  created $adff cell `$procdff$3678' with positive edge clock and positive level reset.
+Creating register for signal `\UART.\div0_dphase' using process `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:71$30'.
+  created $adff cell `$procdff$3681' with positive edge clock and positive level reset.
+Creating register for signal `\sasc_fifo4.\gb' using process `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:124$619'.
+  created $adff cell `$procdff$3686' with positive edge clock and positive level reset.
+Creating register for signal `\sasc_fifo4.$memwr$\mem$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:117$597_ADDR' using process `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:116$607'.
+  created $dff cell `$procdff$3687' with positive edge clock.
+Creating register for signal `\sasc_fifo4.$memwr$\mem$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:117$597_DATA' using process `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:116$607'.
+  created $dff cell `$procdff$3688' with positive edge clock.
+Creating register for signal `\sasc_fifo4.$memwr$\mem$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:117$597_EN' using process `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:116$607'.
+  created $dff cell `$procdff$3689' with positive edge clock.
+Creating register for signal `\sasc_fifo4.\rp' using process `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:103$603'.
+  created $adff cell `$procdff$3694' with positive edge clock and positive level reset.
+Creating register for signal `\sasc_fifo4.\wp' using process `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:93$599'.
+  created $adff cell `$procdff$3699' with positive edge clock and positive level reset.
+
+13.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+13.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:311$594'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:308$593'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:305$592'.
+Found and cleaned up 5 empty switches in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:282$591'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:282$591'.
+Found and cleaned up 1 empty switch in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:276$589'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:276$589'.
+Found and cleaned up 2 empty switches in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:267$584'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:267$584'.
+Found and cleaned up 1 empty switch in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:264$583'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:264$583'.
+Found and cleaned up 1 empty switch in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:258$581'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:258$581'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:246$580'.
+Found and cleaned up 1 empty switch in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:243$578'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:243$578'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:238$573'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:235$571'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:232$569'.
+Found and cleaned up 2 empty switches in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:225$563'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:225$563'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:214$559'.
+Found and cleaned up 1 empty switch in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:204$557'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:204$557'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:201$555'.
+Found and cleaned up 2 empty switches in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:194$551'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:194$551'.
+Found and cleaned up 2 empty switches in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:187$548'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:187$548'.
+Found and cleaned up 2 empty switches in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:182$546'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:182$546'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:177$544'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:174$538'.
+Found and cleaned up 1 empty switch in `\sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:169$536'.
+Removing empty process `sasc_top.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_top.v:169$536'.
+Removing empty process `sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:152$530'.
+Removing empty process `sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:149$528'.
+Found and cleaned up 1 empty switch in `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:144$523'.
+Removing empty process `sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:144$523'.
+Removing empty process `sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:139$522'.
+Removing empty process `sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:136$519'.
+Removing empty process `sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:133$518'.
+Removing empty process `sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:130$516'.
+Found and cleaned up 2 empty switches in `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:123$513'.
+Removing empty process `sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:123$513'.
+Removing empty process `sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:118$511'.
+Found and cleaned up 1 empty switch in `\sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:112$508'.
+Removing empty process `sasc_brg.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_brg.v:112$508'.
+Found and cleaned up 11 empty switches in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+Removing empty process `CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:339$495'.
+Found and cleaned up 2 empty switches in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:326$491'.
+Removing empty process `CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:326$491'.
+Found and cleaned up 1 empty switch in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:318$490'.
+Removing empty process `CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:318$490'.
+Found and cleaned up 1 empty switch in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:0$486'.
+Removing empty process `CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:0$486'.
+Found and cleaned up 3 empty switches in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:260$474'.
+Removing empty process `CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:260$474'.
+Found and cleaned up 3 empty switches in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:230$467'.
+Removing empty process `CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:230$467'.
+Found and cleaned up 5 empty switches in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:203$457'.
+Removing empty process `CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:203$457'.
+Found and cleaned up 1 empty switch in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:183$453'.
+Removing empty process `CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:183$453'.
+Found and cleaned up 2 empty switches in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:168$447'.
+Removing empty process `CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:168$447'.
+Found and cleaned up 1 empty switch in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:147$443'.
+Removing empty process `CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:147$443'.
+Found and cleaned up 2 empty switches in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:136$439'.
+Removing empty process `CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:136$439'.
+Found and cleaned up 1 empty switch in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:110$433'.
+Removing empty process `CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:110$433'.
+Found and cleaned up 2 empty switches in `\CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:100$431'.
+Removing empty process `CPU.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CPU/cpu.sv:100$431'.
+Found and cleaned up 2 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:713$419'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:713$419'.
+Found and cleaned up 10 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:681$406'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:681$406'.
+Found and cleaned up 2 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:662$397'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:662$397'.
+Found and cleaned up 1 empty switch in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:637$365'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:637$365'.
+Found and cleaned up 1 empty switch in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:629$361'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:629$361'.
+Found and cleaned up 2 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:610$357'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:610$357'.
+Found and cleaned up 2 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:600$354'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:600$354'.
+Found and cleaned up 2 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:590$351'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:590$351'.
+Found and cleaned up 2 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:580$348'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:580$348'.
+Found and cleaned up 5 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:561$333'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:561$333'.
+Found and cleaned up 2 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:479$277'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:479$277'.
+Found and cleaned up 4 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:469$272'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:469$272'.
+Found and cleaned up 4 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:459$267'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:459$267'.
+Found and cleaned up 4 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:451$262'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:451$262'.
+Found and cleaned up 6 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:426$242'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:426$242'.
+Found and cleaned up 2 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:412$236'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:412$236'.
+Found and cleaned up 2 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:398$230'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:398$230'.
+Found and cleaned up 2 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:372$228'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:372$228'.
+Found and cleaned up 2 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:325$216'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:325$216'.
+Found and cleaned up 2 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:266$179'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:266$179'.
+Found and cleaned up 1 empty switch in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:251$178'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:251$178'.
+Found and cleaned up 1 empty switch in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:237$177'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:237$177'.
+Found and cleaned up 1 empty switch in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:223$176'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:223$176'.
+Found and cleaned up 1 empty switch in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:209$175'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:209$175'.
+Found and cleaned up 4 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:184$162'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:184$162'.
+Found and cleaned up 4 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:164$149'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:164$149'.
+Found and cleaned up 4 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:144$136'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:144$136'.
+Found and cleaned up 2 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:124$134'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:124$134'.
+Found and cleaned up 2 empty switches in `\CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:95$130'.
+Removing empty process `CACHE.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/CACHE/cache.sv:95$130'.
+Found and cleaned up 8 empty switches in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:0$92'.
+Found and cleaned up 4 empty switches in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:310$88'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:310$88'.
+Found and cleaned up 1 empty switch in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:302$87'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:302$87'.
+Found and cleaned up 2 empty switches in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:274$86'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:274$86'.
+Found and cleaned up 1 empty switch in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:266$85'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:266$85'.
+Found and cleaned up 2 empty switches in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:246$84'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:246$84'.
+Found and cleaned up 2 empty switches in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:236$83'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:236$83'.
+Found and cleaned up 2 empty switches in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:226$82'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:226$82'.
+Found and cleaned up 2 empty switches in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:216$81'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:216$81'.
+Found and cleaned up 10 empty switches in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:179$80'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:179$80'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:153$76'.
+Found and cleaned up 2 empty switches in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:142$75'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:142$75'.
+Found and cleaned up 2 empty switches in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:122$74'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:122$74'.
+Found and cleaned up 2 empty switches in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:106$70'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:106$70'.
+Found and cleaned up 1 empty switch in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:85$69'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:85$69'.
+Found and cleaned up 2 empty switches in `\QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:63$62'.
+Removing empty process `QSPI_SRAM.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/QSPI_SRAM/qspi_sram.sv:63$62'.
+Found and cleaned up 2 empty switches in `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:180$50'.
+Removing empty process `UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:180$50'.
+Found and cleaned up 2 empty switches in `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:160$43'.
+Removing empty process `UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:160$43'.
+Found and cleaned up 2 empty switches in `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:150$42'.
+Removing empty process `UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:150$42'.
+Found and cleaned up 1 empty switch in `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:99$33'.
+Removing empty process `UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:99$33'.
+Found and cleaned up 1 empty switch in `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:91$32'.
+Removing empty process `UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:91$32'.
+Found and cleaned up 2 empty switches in `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:81$31'.
+Removing empty process `UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:81$31'.
+Found and cleaned up 2 empty switches in `\UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:71$30'.
+Removing empty process `UART.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/uart.sv:71$30'.
+Found and cleaned up 3 empty switches in `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:124$619'.
+Removing empty process `sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:124$619'.
+Found and cleaned up 1 empty switch in `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:116$607'.
+Removing empty process `sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:116$607'.
+Found and cleaned up 2 empty switches in `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:103$603'.
+Removing empty process `sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:103$603'.
+Found and cleaned up 2 empty switches in `\sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:93$599'.
+Removing empty process `sasc_fifo4.$proc$/home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/src/UART/sasc/trunk/rtl/verilog/sasc_fifo4.v:93$599'.
+Cleaned up 202 empty switches.
+
+13.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tt_um_bfcpu.
+<suppressed ~1 debug messages>
+Optimizing module sasc_top.
+<suppressed ~21 debug messages>
+Optimizing module sasc_brg.
+<suppressed ~8 debug messages>
+Optimizing module CPU.
+<suppressed ~24 debug messages>
+Optimizing module CACHE.
+<suppressed ~60 debug messages>
+Optimizing module QSPI_SRAM.
+<suppressed ~39 debug messages>
+Optimizing module UART.
+<suppressed ~9 debug messages>
+Optimizing module TOP.
+Optimizing module sasc_fifo4.
+<suppressed ~6 debug messages>
+
+14. Executing FLATTEN pass (flatten design).
+Deleting now unused module sasc_top.
+Deleting now unused module sasc_brg.
+Deleting now unused module CPU.
+Deleting now unused module CACHE.
+Deleting now unused module QSPI_SRAM.
+Deleting now unused module UART.
+Deleting now unused module TOP.
+Deleting now unused module sasc_fifo4.
+<suppressed ~9 debug messages>
+
+15. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tt_um_bfcpu..
+Removed 65 unused cells and 1219 unused wires.
+<suppressed ~214 debug messages>

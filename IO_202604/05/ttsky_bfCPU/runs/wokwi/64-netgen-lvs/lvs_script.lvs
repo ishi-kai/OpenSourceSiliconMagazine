@@ -1,0 +1,14 @@
+set circuit1 [readnet spice /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/62-magic-spiceextraction/tt_um_bfcpu.spice]
+set circuit2 [readnet verilog /dev/null]
+puts "Reading SPICE netlist file '/home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice'..."
+readnet spice /home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice $circuit2
+puts "Reading SPICE netlist file '/home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_12.spice'..."
+readnet spice /home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_12.spice $circuit2
+puts "Reading SPICE netlist file '/home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_4.spice'..."
+readnet spice /home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_4.spice $circuit2
+puts "Reading SPICE netlist file '/home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_8.spice'..."
+readnet spice /home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_8.spice $circuit2
+puts "Reading SPICE netlist file '/home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice'..."
+readnet spice /home/taka/ISHI_Kai/bfCPU/ttsetup/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice $circuit2
+readnet verilog /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/51-openroad-fillinsertion/tt_um_bfcpu.pnl.v $circuit2
+lvs "$circuit1 tt_um_bfcpu" "$circuit2 tt_um_bfcpu" /nix/store/4h964pg996p5lz54maggj16ydp2cbki3-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/netgen/setup.tcl /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/64-netgen-lvs/reports/lvs.netgen.rpt -blackbox -json

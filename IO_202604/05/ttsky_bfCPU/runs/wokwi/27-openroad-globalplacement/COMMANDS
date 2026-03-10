@@ -1,0 +1,1 @@
+openroad -exit -no_splash -metrics /home/taka/ISHI_Kai/bfCPU/ttsky_bfCPU/runs/wokwi/27-openroad-globalplacement/or_metrics_out.json /nix/store/4h964pg996p5lz54maggj16ydp2cbki3-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/openroad/gpl.tcl

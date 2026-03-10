@@ -1,0 +1,19 @@
+{
+  "DESIGN_NAME": "tt_um_bfcpu",
+  "VERILOG_FILES": [
+    "dir::tt_um_bfcpu.sv",
+    "dir::TOP/top.sv",
+    "dir::CPU/cpu.sv",
+    "dir::CACHE/cache.sv",
+    "dir::QSPI_SRAM/qspi_sram.sv",
+    "dir::UART/uart.sv",
+    "dir::UART/sasc/trunk/rtl/verilog/sasc_top.v",
+    "dir::UART/sasc/trunk/rtl/verilog/sasc_fifo4.v",
+    "dir::UART/sasc/trunk/rtl/verilog/sasc_brg.v"
+  ],
+  "DIE_AREA": "0 0 334.88 225.76",
+  "FP_DEF_TEMPLATE": "dir::../tt/tech/sky130A/def/tt_block_2x2_pg.def",
+  "VDD_PIN": "VPWR",
+  "GND_PIN": "VGND",
+  "RT_MAX_LAYER": "met4"
+}

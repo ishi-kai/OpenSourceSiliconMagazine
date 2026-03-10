@@ -1,0 +1,42 @@
+170. Printing statistics.
+
+=== tt_um_bfcpu ===
+
+   Number of wires:               3905
+   Number of wire bits:           4682
+   Number of public wires:         155
+   Number of public wire bits:     930
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               4575
+     $_ANDNOT_                     764
+     $_AND_                        133
+     $_MUX_                       1500
+     $_NAND_                        73
+     $_NOR_                        169
+     $_NOT_                        232
+     $_ORNOT_                      162
+     $_OR_                         545
+     $_XNOR_                        16
+     $_XOR_                        268
+     sky130_fd_sc_hd__dfrtp_2      596
+     sky130_fd_sc_hd__dfstp_2       13
+     sky130_fd_sc_hd__dfxtp_2      104
+
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+
+   Chip area for module '\tt_um_bfcpu': 18213.718400
+     of which used for sequential elements: 18213.718400 (100.00%)
+

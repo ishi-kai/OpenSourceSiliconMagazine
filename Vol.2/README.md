@@ -1,4 +1,4 @@
-# [Open Source Silicon Magazine Vol.2](/Vol.2/)のサポートページです
+# [Open Source Silicon Magazine Vol.2](/Vol.2/)のサポートサイトです
 普段何気なく使っている「マイコン」。しかし、中身がどのように設計されているかご存知でしょうか？ICチップでなんかすごいことやって作られているってイメージではないでしょうか？実は、原理自体は難しくなく、今や自作も可能です。そこで、正式名「[Open Source Silicon Magazine vol.2 ーはじめの一歩のその先へー～電気系ものづくりYouTuber イチケン氏降臨！次世代電子工作の第一歩！マイコンチップを自作しよう（アナログ編）～](https://techbookfest.org/product/16QdT05XCLVsRDi1fqX2wy)」の本書（Vol.2とVol.3）ではその中身の解説と設計サンプルを提示したいと思います。  
 
 なぜ、マイコンの中身を知る必要があるのでしょうか？  

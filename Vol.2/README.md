@@ -51,7 +51,6 @@
     - [レイアウト](files/07//klayout/)
 - [8章：試作チップを使用した応用回路](files/08/)
     - [回路図](files/08//xschem/)
-    - [レイアウト](files/08//klayout/)
 - [9章：OPAMP 作ってみた！](files/09/)
     - [回路図](files/09//xschem/)
     - [レイアウト](files/09//klayout/)
